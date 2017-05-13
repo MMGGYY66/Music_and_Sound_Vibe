@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guitar"
+    tools:context="com.example.android.musicalstructureapp.MusicSearchActivity">
+
+    <ImageView
+        android:id="@+id/music_library"
+        android:src="@drawable/songs"
+        style="@style/Music_Search_Image_Style"/>
+
+    <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+        style="@style/Music_Search_Description_Style"
+        ext:documentView_insetPaddingBottom="@dimen/padding_large_x"
+        ext:documentView_insetPaddingLeft="@dimen/padding_extra_large"
+        ext:documentView_insetPaddingRight="@dimen/padding_extra_large"
+        ext:documentView_insetPaddingTop="@dimen/padding_large_x"
+        ext:documentView_text="@string/Music_Search_Screen_description"
+        ext:documentView_textAlignment="justified"
+        ext:documentView_textColor="@android:color/holo_blue_bright"
+        ext:documentView_textSize="@dimen/textSize_Music_Search_description"
+        ext:documentView_textStyle="bold" />
+
+    <EditText
+        android:id="@+id/music_search"
+        android:hint="@string/Search_Song_Artist_or_Album_text_description"
+        android:inputType="text"
+        android:textColorHint="@color/Search_Song_Artist_or_Album_text_color"
+        android:orientation="vertical"
+        style="@style/Search_Song_Artist_or_Album_Style"/>
+
+</LinearLayout>

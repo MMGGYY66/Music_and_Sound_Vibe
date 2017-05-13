@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guitar"
+    tools:context="com.example.android.musicalstructureapp.PlaylistActivity">
+
+    <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+        style="@style/Playlist_Description_Style"
+        ext:documentView_insetPaddingBottom="@dimen/padding_medium"
+        ext:documentView_insetPaddingLeft="@dimen/padding_extra_large"
+        ext:documentView_insetPaddingRight="@dimen/padding_extra_large"
+        ext:documentView_insetPaddingTop="@dimen/padding_medium"
+        ext:documentView_text="@string/Playlist_Screen_description"
+        ext:documentView_textAlignment="justified"
+        ext:documentView_textColor="@android:color/holo_blue_bright"
+        ext:documentView_textSize="@dimen/textSize_Playlist_and_NowPlaying_description"
+        ext:documentView_textStyle="bold" />
+
+    <TextView
+        android:id="@+id/best_hits"
+        android:text="@string/Best_Hits_Playlist"
+        style="@style/Playlist_Category_Style" />
+
+    <TextView
+        android:id="@+id/chill"
+        android:text="@string/Chill_Songs_Playlist"
+        style="@style/Playlist_Category_Style"/>
+
+    <TextView
+        android:id="@+id/love_songs"
+        android:text="@string/Love_Songs_Playlist"
+        style="@style/Playlist_Category_Style"/>
+
+    <TextView
+        android:id="@+id/soundtracks"
+        android:text="@string/Soundtracks_Playlist"
+        style="@style/Playlist_Category_Style"/>
+
+    <TextView
+        android:id="@+id/celebration"
+        android:text="@string/Celebration_Songs_Playlist"
+        style="@style/Playlist_Category_Style"/>
+
+    <TextView
+        android:id="@+id/inspirational"
+        android:text="@string/Inspirational_Songs_Playlist"
+        style="@style/Playlist_Category_Style"/>
+
+    <TextView
+        android:id="@+id/add_playlist"
+        android:text="@string/Add_Custom_Playlist"
+        style="@style/Add_Custom_Playlist_Category_Style"/>
+
+</LinearLayout>

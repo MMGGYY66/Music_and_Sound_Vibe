@@ -1,0 +1,27 @@
+<resources>
+    <string name="App_Name">Music and Sound Vibe</string>
+    <string name="Playlist">Playlist</string>
+    <string name="Music_Search">Music Search</string>
+    <string name="Random">Random</string>
+    <string name="Now_Playing">Now Playing</string>
+    <string name="Search_Song_Artist_or_Album_text_description">Search Song, Artist or Album</string>
+    <string name="Best_Hits_Playlist">Best Hits</string>
+    <string name="Chill_Songs_Playlist">Chill Songs</string>
+    <string name="Love_Songs_Playlist">Love Songs</string>
+    <string name="Soundtracks_Playlist">Soundtracks</string>
+    <string name="Celebration_Songs_Playlist">Celebration Songs</string>
+    <string name="Inspirational_Songs_Playlist">Inspirational Songs</string>
+    <string name="Add_Custom_Playlist">+ Add Custom Playlist</string>
+    <string name="Main_Screen_description">Main Screen. This is the first screen that the user can see when the application is opened. It contains 3 Buttons that open 3 activities: Playlist, Music Search and Random, by clicking or tapping on them, through explicit intents.</string>
+    <string name="Playlist_Screen_description">Playlist Screen. This screen contains a list of song categories that represent the user\'s library of songs and an Add Custom Playlist option for adding a new desired song category to the Playlist. By clicking  or tapping on any of the Playlist categories, the NowPlaying activity opens through an explicit intent and a chosen song is played.</string>
+    <string name="Music_Search_Screen_description">Music Search Screen. This application will use Spotify API to search for music online through the Spotify website. On this screen it can be used an option to search in the Spotify library where the user can define specific songs and artists, as well as stream by genre, mood and popular existing stations and Spotify will mix that music with recommended, related content.
+Spotify works through the web player and the user can find music by the most popular playlists in different countries or around the globe, as well as from within the user\'s friends list and the New Releases section. \nThe Spotify web API lets this application fetch data from the Spotify music catalog and manage the user\'s playlists and saved music. It returns metadata in JSON format about artists, albums and tracks directly from the Spotify catalogue.
+\nThe favorite songs can be added in a Songs Library on this screen that will contain a scroll view section with songs. By clicking or tapping on this section, the NowPlaying activity is opened through an explicit intent and a chosen song can be played.</string>
+    <string name="Random_Screen_description">Random Screen. This application will use the Spotify API to play random songs, which will be played using the ExoPlayer and the Media Controller. The Media Player options that can be used to play the songs are Buttons: Play - Pause, Fast Forward, Fast Rewind, Repeat and Shuffle.
+Playlists can also be found by Spotify\'s recommendations based on the user\'s current music, via new releases and through genres and moods, such as Chill, Party, Country, Workout, Decades, Indie, and Sleep. Whole albums can be played in shuffle mode.
+The songs the user likes can be added to the user\'s Songs Library on this screen, to the My Music section or to the user\'s own playlists, which Spotify will stream while also giving the user recommended music. \nBy clicking  or tapping on any of the songs from the Library on this screen, the NowPlaying activity opens through an explicit intent and a chosen song is played.</string>
+    <string name="Now_Playing_Screen_and_Sound_Vibe_description">Now Playing Screen. This screen contains the song selected by the user to be played. Here it can be seen the artist or the band, the song title and the Media Player options that can be used to play the song, like Buttons: Play - Pause, Fast Forward, Fast Rewind, Repeat and Shuffle. For playing the song, an ExoPlayer and a Media Controller will be used. \nA functionality will be implemented in this application, called Sound Vibe, that will allow people who can\'t hear well or at all to select an option through which they can feel the vibrations of any song that they choose. In this way, they can feel the rhythm of a melody and even dance if they want, based on those vibrations.
+This functionality will be implemented through a code and by using the method vibrate(); One of the constructors of class Vibrator will be used.
+As a fist parameter, the duration of the song will be passed. A a second parameter, AudioAttributes will be created with the help of AudioAttributes.Builder. Also, a code for permission will be added in the AndroidManifest.xml file.
+    </string>
+</resources>

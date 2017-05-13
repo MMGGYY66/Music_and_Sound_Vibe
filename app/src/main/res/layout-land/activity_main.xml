@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guitar"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructureapp.MainActivity">
+
+    <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+        style="@style/Main_Screen_Description_Style"
+        ext:documentView_insetPaddingBottom="@dimen/padding_large_x"
+        ext:documentView_insetPaddingLeft="@dimen/padding_extra_large"
+        ext:documentView_insetPaddingRight="@dimen/padding_extra_large"
+        ext:documentView_insetPaddingTop="@dimen/padding_large_x"
+        ext:documentView_text="@string/Main_Screen_description"
+        ext:documentView_textAlignment="justified"
+        ext:documentView_textColor="@android:color/holo_blue_bright"
+        ext:documentView_textSize="@dimen/textSize_Main_Screen_and_Random_description"
+        ext:documentView_textStyle="bold" />
+
+    <Button
+        android:id="@+id/playlist"
+        android:text="@string/Playlist"
+        style="@style/Button_Style"/>
+
+    <Button
+        android:id="@+id/music_search"
+        android:text="@string/Music_Search"
+        style="@style/Button_Style"/>
+
+    <Button
+        android:id="@+id/random"
+        android:text="@string/Random"
+        style="@style/Button_Style"/>
+
+</LinearLayout>

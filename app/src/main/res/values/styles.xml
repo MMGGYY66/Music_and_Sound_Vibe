@@ -1,0 +1,166 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Action_Bar_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/App_Bar_text_color</item>
+        <item name="android:textSize">@dimen/textSize_App_Bar_Title_and_Buttons</item>
+    </style>
+
+    <style name="Main_Screen_Description_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/Main_Page_description_layout_height</item>
+        <item name="android:layout_marginBottom">@dimen/margin_extra_large</item>
+        <item name="android:background">@color/Description_Background_color</item>
+    </style>
+
+    <style name="Button_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:layout_marginBottom">@dimen/margin_large</item>
+        <item name="android:textColor">@color/Button_text_color</item>
+        <item name="android:textSize">@dimen/textSize_App_Bar_Title_and_Buttons</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Playlist_Description_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/Playlist_description_layout_height</item>
+        <item name="android:layout_marginBottom">@dimen/margin_large</item>
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+    <style name="Playlist_Category_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/margin_medium</item>
+        <item name="android:paddingTop">@dimen/padding_large</item>
+        <item name="android:paddingBottom">@dimen/padding_large</item>
+        <item name="android:paddingRight">@dimen/padding_large</item>
+        <item name="android:paddingLeft">@dimen/padding_extra_large</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="android:textColor">@color/Description_and_Playlist_categories_text_color</item>
+        <item name="android:textSize">@dimen/textSize_PlaylistCategories_and_Music_Search_description</item>
+    </style>
+
+    <style name="Add_Custom_Playlist_Category_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/margin_small</item>
+        <item name="android:paddingTop">@dimen/padding_large</item>
+        <item name="android:paddingBottom">@dimen/padding_large</item>
+        <item name="android:paddingRight">@dimen/padding_large</item>
+        <item name="android:paddingLeft">@dimen/padding_extra_large</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="android:textColor">@color/Description_and_Playlist_categories_text_color</item>
+        <item name="android:textSize">@dimen/textSize_PlaylistCategories_and_Music_Search_description</item>
+    </style>
+
+    <style name="Music_Search_Image_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/MusicSearch_Image_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="Music_Search_Description_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/Music_Search_description_layout_height</item>
+        <item name="android:layout_marginBottom">@dimen/margin_large</item>
+        <item name="android:background">@color/Description_Background_color</item>
+    </style>
+
+    <style name="Search_Song_Artist_or_Album_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">@dimen/padding_large_x</item>
+        <item name="android:paddingBottom">@dimen/padding_large_x</item>
+        <item name="android:paddingRight">@dimen/padding_large_x</item>
+        <item name="android:paddingLeft">@dimen/padding_extra_large</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/textSize_PlaylistCategories_and_Music_Search_description</item>
+    </style>
+
+    <style name="HorizontalScrollView_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/margin_tiny</item>
+        <item name="android:layout_marginLeft">@dimen/margin_tiny</item>
+    </style>
+
+    <style name="Songs_Library_Style">
+        <item name="android:layout_width">@dimen/Song_Image_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/padding_tiny_x</item>
+    </style>
+
+    <style name="Media_Player_Layout_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/Media_Player_layout_height</item>
+        <item name="android:padding">@dimen/padding_tiny_x</item>
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+    <style name="Shuffle_and_Repeat_Style">
+        <item name="android:layout_width">@dimen/padding_Media_Player_icons_layout_width</item>
+        <item name="android:layout_height">@dimen/Shuffle_and_Repeat_Image_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/padding_tiny</item>
+    </style>
+
+    <style name="Fast_Rewind_and_Fast_Forward_Style">
+        <item name="android:layout_width">@dimen/padding_Media_Player_icons_layout_width</item>
+        <item name="android:layout_height">@dimen/Fast_Rewind_and_Fast_Forward_Image_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/padding_tiny</item>
+    </style>
+
+    <style name="Play_Pause_Style">
+        <item name="android:layout_width">@dimen/padding_Media_Player_icons_layout_width</item>\\
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/padding_tiny</item>
+    </style>
+
+    <style name="Random_Screen_description_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/Random_description_layout_height</item>
+        <item name="android:layout_marginBottom">@dimen/margin_large</item>
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+    <style name="NowPlaying_Song_Image_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/Now_Playing_Image_height</item>
+    </style>
+
+    <style name="NowPlaying_ScrollView_Style">
+        <item name="android:background">@drawable/background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Sound_Vibe_Image_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/Sound_Vibe_Image_layout_height</item>
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:paddingBottom">@dimen/padding_large_x</item>
+        <item name="android:paddingRight">@dimen/padding_extra_large</item>
+        <item name="android:paddingLeft">@dimen/padding_extra_large</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

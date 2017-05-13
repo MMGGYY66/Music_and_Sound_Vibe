@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#616161</color>
+    <color name="colorPrimaryDark">@android:color/holo_blue_bright</color>
+    <color name="colorAccent">@android:color/holo_blue_bright</color>
+    <color name="App_Bar_text_color">@android:color/white</color>
+    <color name="Description_Background_color">#30E0E0E0</color>
+    <color name="Button_text_color">@android:color/black</color>
+    <color name="Description_and_Playlist_categories_text_color">@android:color/holo_blue_bright</color>
+    <color name="Search_Song_Artist_or_Album_text_color">@android:color/white</color>
+    <color name="Background_color">#1AFFFFFF</color>
+    <color name="Transparent_Background_color">@android:color/holo_blue_dark</color>
+    <color name="Button_background_color">@android:color/holo_blue_bright</color>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guitar"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructureapp.NowPlayingActivity">
+
+    <ImageView
+        android:id="@+id/now_playing"
+        style="@style/NowPlaying_Song_Image_Style"
+        android:src="@drawable/now_playing" />
+
+    <LinearLayout
+        style="@style/Media_Player_Layout_Style"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/Shuffle_and_Repeat_Style"
+            android:layout_weight="1"
+            android:src="@drawable/shuffle" />
+
+        <ImageView
+            style="@style/Fast_Rewind_and_Fast_Forward_Style"
+            android:layout_weight="1"
+            android:src="@drawable/fast_rewind" />
+
+        <ImageView
+            style="@style/Play_Pause_Style"
+            android:layout_weight="1"
+            android:src="@drawable/play" />
+
+        <ImageView
+            style="@style/Fast_Rewind_and_Fast_Forward_Style"
+            android:layout_weight="1"
+            android:src="@drawable/fast_forward" />
+
+        <ImageView
+            style="@style/Shuffle_and_Repeat_Style"
+            android:layout_weight="1"
+            android:src="@drawable/repeat" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        style="@style/NowPlaying_ScrollView_Style"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ext:documentView_insetPaddingBottom="@dimen/padding_small"
+                ext:documentView_insetPaddingLeft="@dimen/padding_extra_large"
+                ext:documentView_insetPaddingRight="@dimen/padding_extra_large"
+                ext:documentView_insetPaddingTop="@dimen/padding_small_x"
+                ext:documentView_text="@string/Now_Playing_Screen_and_Sound_Vibe_description"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@color/Description_and_Playlist_categories_text_color"
+                ext:documentView_textSize="@dimen/textSize_Playlist_and_NowPlaying_description"
+                ext:documentView_textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/sound_vibe"
+                style="@style/Sound_Vibe_Image_Style"
+                android:src="@drawable/sound_vibe" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
